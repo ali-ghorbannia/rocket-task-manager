@@ -1,0 +1,75 @@
+.inputcontainer {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  align-items: center;
+  position: relative;
+  background-color: var(--powder-blue);
+  border-radius: 10px 10px 0 10px;
+  z-index: 31;
+}
+input {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--midnight-blue);
+  font-weight: 700;
+}
+
+.addTask {
+  background-color: var(--navy-blue);
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+  border-radius: 0px 10px 0 0;
+  position: absolute;
+  right: 0;
+}
+.addTask:hover {
+  background-color: var(--midnight-blue);
+}
+
+button {
+  border: 0;
+  outline: 0;
+  color: var(--light-gray);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* .editDeleteContainer {
+  position: absolute;
+  z-index: 32;
+  left: 1.5rem;
+}
+.trashIcon {
+  color: var(--rose-red);
+  margin-right: 0.3rem;
+  cursor: pointer;
+}
+.editIcon {
+  color: var(--navy-blue);
+  cursor: pointer;
+}
+
+.tbCircle {
+  color: var(--navy-blue);
+  position: absolute;
+  right: 1.5rem;
+  cursor: pointer;
+}
+.tbCircleCheckFilled {
+  color: var(--navy-blue);
+  position: absolute;
+  right: 1.5rem;
+  cursor: pointer;
+}
+.tbCircleCheckFilled.checked {
+  color: rebeccapurple;
+} */

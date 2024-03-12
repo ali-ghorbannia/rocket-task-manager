@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "content": "task 1",
+      "checked": true
+    },
+    {
+      "id": "2",
+      "content": "task 2",
+      "checked": false
+    },
+    {
+      "id": "4",
+      "content": "Thanks For Watching",
+      "checked": true
+    }
+  ]
+}

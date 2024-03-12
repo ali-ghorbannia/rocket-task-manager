@@ -14,28 +14,28 @@ Rocket Task Manager is a modern and efficient task management application built 
 
 1. Clone the repository:
 
-    ```
-    git clone https://github.com/ali-ghorbannia/rocket-task-manager.git
-    ```
+   ```
+   git clone https://github.com/ali-ghorbannia/rocket-task-manager.git
+   ```
 
 2. Install dependencies:
 
-    ```
-    cd rocket-task-manager
-    npm install
-    ```
+   ```
+   cd rocket-task-manager
+   npm install
+   ```
 
 3. Run the json-server to store data:
 
-    ```
-    npm run server
-    ```
+   ```
+   npx json-server --watch data/db.json --port 8000
+   ```
 
 4. Run the Rocket Task Manager application:
 
-    ```
-    npm start
-    ```
+   ```
+   npm start
+   ```
 
 ## License
 
@@ -45,6 +45,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Contributions, suggestions, and bug reports are welcome! Please feel free to open an issue or submit a pull request.
 
-## ScreenShot 
+## ScreenShot
 
 ![Rocket Task Manager](https://github.com/ali-ghorbannia/rocket-task-manager/assets/54751337/8a7af291-6e13-4b3b-b101-574f344e9d4f)
